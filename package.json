@@ -1,0 +1,32 @@
+{
+  "name": "rando",
+  "description": "A javascript library to generate random numbers, possibly for a graph.",
+  "version": "0.0.1",
+  "author": "Gilly Barr <gilly@logz.io>",
+  "contributors": [
+    {
+      "name": "Gilly Barr",
+      "email": "gillyb@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gillyb/rando"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "mocha": "^2.3.4"
+  },
+  "main": "./lib/rando.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "(Apache-2.0)",
+  "scripts": {
+    "test": "mocha"
+  }
+}
